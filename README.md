@@ -8,6 +8,19 @@
 This plugin will generate a single PDF file from your MkDocs repository.
 This plugin is inspired by [MkDocs PDF Export Plugin][mkdocs-pdf-export-plugin].
 
+## Fix | 修复说明
+
+- mkdoc1.3.0
+- material for mkdocs8.3.9
+
+
+1. change md-footer-copyright to md-copyright in `mkdocs_with_pdf\themes\material.py`
+
+    more info👉https://github.com/orzih/mkdocs-with-pdf/issues/88
+
+2. pip install beautifulsoup4==4.9.3
+
+
 ## Features
 
 * Cover and Table of Contents integrated in the PDF
